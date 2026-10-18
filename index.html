@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Солнечная система</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1><span>●</span> Солнечная система</h1>
+  <div class="ctl">
+    <button id="pp">Пауза</button>
+    <button id="sc">Масштаб: условный</button>
+    <label>Скорость <input id="sp" type="range" min="0.2" max="4" step="0.1" value="1"></label>
+  </div>
+</header>
+<main>
+  <canvas id="c"></canvas>
+  <div id="tip"></div>
+</main>
+<div id="ov"><div id="md" role="dialog" aria-modal="true"><button id="x" aria-label="Закрыть">✕</button><div id="mc"></div></div></div>
+
+<script src="script.js"></script>
+</body>
+</html>
